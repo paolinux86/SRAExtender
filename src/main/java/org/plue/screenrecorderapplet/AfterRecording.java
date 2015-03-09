@@ -20,5 +20,5 @@ import java.io.File;
  */
 public interface AfterRecording
 {
-	void onRecordComplete(File video);
+	String onRecordComplete();
 }
